@@ -60,7 +60,7 @@ jobs:
         uses: azure/powershell@v1
         with:
           inlineScript: |
-            .\<myDeploymentScriptFileName>.ps1
+            .\deploy-resources-function-plan-storage.ps1
           azPSVersion: "latest"
           
           # after we've deployed our resources we would like to deploy our packages also
