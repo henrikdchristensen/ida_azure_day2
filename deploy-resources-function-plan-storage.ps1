@@ -65,12 +65,12 @@ az account set --subscription "d6b4bc51-75a6-4eb4-8cf2-4114beceec76"
 # This way - we can reuse the $resourceGroup variable
 # Should we want to change the value of the $resourceGroup variable, we only have to do it one place.
 
-$resourceGroup = 'rg_ramtin'
-$storageAccountName = 'ramtinstorageacc'
-$appServicePlanName = 'ramtinAppServicePlan'
-$functionappName = 'ramtinFuncApp111'
-$webappName = 'ramtinWebApp111'
-$cosmosNamespace = 'ramtinCosmosNameSpace111'
+$resourceGroup = 'rg_henrikchris'
+$storageAccountName = 'henrikstorageacc'
+$appServicePlanName = 'henrikAppServicePlan'
+$functionappName = 'henrikFuncApp111'
+$webappName = 'henrikWebApp111'
+$cosmosNamespace = 'henrikcosmosnamespace'
 
 az upgrade
 
